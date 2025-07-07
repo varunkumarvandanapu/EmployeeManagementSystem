@@ -24,7 +24,6 @@ const EmployeeComponent = () => {
                 setFirstName(response.data.firstName);
                 setLastName(response.data.lastName);
                 setEmail(response.data.email);
-                console.log(response.data);
             }).catch(error => {
                 console.error(error)
             })     
